@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoMigrante Brasil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navegação -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>InfoMigrante<span class="highlight">Brasil</span></h1>
+            </div>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" data-i18n="nav_home">Início</a></li>
+                    <li><a href="#rights" data-i18n="nav_rights">Direitos</a></li>
+                    <li><a href="#services" data-i18n="nav_services">Serviços</a></li>
+                    <li><a href="#adaptation" data-i18n="nav_adaptation">Adaptação</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="pt">PT</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h2 data-i18n="hero_title">Bem-vindo ao Brasil!</h2>
+            <p data-i18n="hero_subtitle">Informações essenciais para imigrantes e refugiados começarem uma nova vida com segurança e dignidade.</p>
+            <a href="#rights" class="btn-primary" data-i18n="hero_cta">Conheça seus Direitos</a>
+        </div>
+    </section>
+
+    <!-- Direitos Section -->
+    <section id="rights" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="rights_title">Seus Direitos Básicos</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">📄</div>
+                    <h3 data-i18n="card_doc_title">Documentação</h3>
+                    <p data-i18n="card_doc_desc">Todo imigrante tem direito à documentação, incluindo CPF, Carteira de Trabalho e RNE (Registro Nacional de Estrangeiros).</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏥</div>
+                    <h3 data-i18n="card_health_title">Saúde</h3>
+                    <p data-i18n="card_health_desc">Acesso universal ao SUS (Sistema Único de Saúde). Atendimento gratuito em hospitais e postos de saúde.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎓</div>
+                    <h3 data-i18n="card_education_title">Educação</h3>
+                    <p data-i18n="card_education_desc">Crianças e adolescentes têm direito garantido à escola pública, independentemente da situação documental.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💼</div>
+                    <h3 data-i18n="card_work_title">Trabalho</h3>
+                    <p data-i18n="card_work_desc">Direito ao trabalho formal com os mesmos direitos dos brasileiros, após obtenção da documentação adequada.</p>
+                          </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-i18n="services_title">Onde Buscar Ajuda</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3 data-i18n="serv_pf_title">Polícia Federal (PF)</h3>
+                    <p data-i18n="serv_pf_desc">Responsável pela emissão de documentos de imigrantes (RNE/CIE) e processos de refúgio.</p>
+                    <a href="https://www.gov.br/pf/pt-br" target="_blank" class="link-text" data-i18n="serv_visit_site">Visitar site</a>
+                </div>
+                <div class="service-item">
+                    <h3 data-i18n="serv_defensoria_title">Defensoria Pública</h3>
+                    <p data-i18n="serv_defensoria_desc">Assistência jurídica gratuita para quem não pode pagar um advogado.</p>
+                </div>
+                <div class="service-item">
+                    <h3 data-i18n="serv_cras_title">CRAS (Centro de Referência de Assistência Social)</h3>
+                    <p data-i18n="serv_cras_desc">Porta de entrada para benefícios sociais e apoio às famílias em vulnerabilidade.</p>
+                </div>
+                <div class="service-item">
+                    <h3 data-i18n="serv_ministerio_title">Ministério Público do Trabalho</h3>
+                    <p data-i18n="serv_ministerio_desc">Protege os direitos do trabalhador e combate o trabalho escravo ou análogo à escravidão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adaptação Section -->
+    <section id="adaptation" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="adapt_title">Dicas de Adaptação</h2>
+            <div class="tips-container">
+                <div class="tip-box">
+                    <h4 data-i18n="tip_1_title">1. Valide seu diploma</h4>
+                    <p data-i18n="tip_1_desc">Procure uma universidade pública para revalidar diplomas estrangeiros (Processo Carolina Bori).</p>
+                </div>
+                <div class="tip-box">
+                    <h4 data-i18n="tip_2_title">2. Aprenda Português</h4>
+                    <p data-i18n="tip_2_desc">O domínio do idioma é fundamental para conseguir emprego e integrar-se à sociedade.</p>
+                </div>
+                <div class="tip-box">
+                    <h4 data-i18n="tip_3_title">3. Abra uma conta bancária</h4>
+                    <p data-i18n="tip_3_desc">Com RNE e CPF, você pode abrir contas em bancos digitais ou tradicionais.</p>
+                </div>
+                <div class="tip-box">
+                    <h4 data-i18n="tip_4_title">4. Procure ONGs de Apoio</h4>
+                    <p data-i18n="tip_4_desc">Organizações como Cáritas, ADUS e Missão Paz oferecem suporte jurídico e social.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato / Emergência -->
+    <section id="contact" class="section bg-dark">
+        <div class="container contact-content">
+            <h2 class="section-title text-white" data-i18n="emergency_title">Números de Emergência</h2>
+            <div class="emergency-grid">
+                <div class="emergency-card">
+                    <span class="number">190</span>
+                    <span data-i18n="emerg_police">Polícia</span>
+                </div>
+                <div class="emergency-card">
+                    <span class="number">192</span>
+                    <span data-i18n="emerg_ambulance">Ambulância (SAMU)</span>
+                </div>
+                <div class="emergency-card">
+                    <span class="number">193</span>
+                    <span data-i18n="emerg_fire">Bombeiros</span>
+                </div>
+                <div class="emergency-card">
+                    <span class="number">100</span>
+                    <span data-i18n="emerg_human_rights">Direitos Humanos</span>
+                </div>
+            </div>
+            <p class="copyright" data-i18n="footer_text">© 2023 InfoMigrante Brasil - Feito com ❤️ para acolher.</p>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
